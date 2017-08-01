@@ -30,4 +30,6 @@ public abstract class AbstractEmailService implements EmailService {
     public void sendFeedbackEmail(FeedbackPojo feedbackPojo) {
         sendGenericEmailMessage(prepareSimpleMailMessageFromFeedbackPojo(feedbackPojo));
     }
+
+
 }
