@@ -15,17 +15,17 @@ import java.util.logging.Logger;
 public class I18NService {
 
 
-    private static final Logger LOG = (Logger) LoggerFactory.getLogger(I18NService.class);
+    //private static final Logger LOG = (Logger) LoggerFactory.getLogger(I18NService.class);
 
 
     @Autowired
     private MessageSource messageSource;
 
-    public String getMessage(String messageId) {
-        LOG.info(messageId);
-        Locale locale = LocaleContextHolder.getLocale();
-        return getMessage(messageId, locale);
-    }
+//    public String getMessage(String messageId) {
+//        LOG.info(messageId);
+//        Locale locale = LocaleContextHolder.getLocale();
+//        return getMessage(messageId, locale);
+//    }
 
     public String getMessage(String messageId, Locale locale){
         return messageSource.getMessage(messageId, null, locale);
