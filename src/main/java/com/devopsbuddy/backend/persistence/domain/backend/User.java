@@ -1,4 +1,4 @@
-package com.devopsbuddy.backend.persistence.domain;
+package com.devopsbuddy.backend.persistence.domain.backend;
 
 import org.hibernate.validator.constraints.Length;
 
