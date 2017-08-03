@@ -1,4 +1,4 @@
-package com.devopsbuddy.backend.persistence.domain;
+package com.devopsbuddy.backend.persistence.domain.backend;
 
 import com.devopsbuddy.enums.PlansEnum;
 
